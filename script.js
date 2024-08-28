@@ -41,9 +41,27 @@
 
 //5. Delete the File
 
+// const fs = require("fs");
+
+// fs.unlink("script1.js" , function(err){
+//     if(err) console.log(err);
+//     else console.log("File deleted Sucessful")
+// })
+
+// 6. Create a Folder
+
+// const fs = require("fs");
+
+// fs.mkdir("Learn Node JS" , function(err){
+//     if(err) console.log(err);
+//     else console.log("Folder created Sucessful")
+// })
+
+// 7. Read folder the File
+
 const fs = require("fs");
 
-fs.unlink("script1.js" , function(err){
+fs.readdir("Learn Node JS", function(err , files){
     if(err) console.log(err);
-    else console.log("File deleted Sucessful")
+    else console.log(files)
 })
