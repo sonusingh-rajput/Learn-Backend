@@ -61,7 +61,7 @@
 
 const fs = require("fs");
 
-fs.readdir("Learn Node JS", function(err , files){
+fs.readdir("Learn Node JS", {withFileTypes:true}, function(err , files){
     if(err) console.log(err);
     else console.log(files)
 })
