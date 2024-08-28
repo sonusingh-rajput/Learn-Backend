@@ -1,3 +1,3 @@
- var data  = require('./script')
+//  var data  = require('./script')
 
-console.log(data)
+// console.log(data)
