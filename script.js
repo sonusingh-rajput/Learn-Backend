@@ -68,9 +68,21 @@
 
 // 8. Delete folder
 
-const fs = require("fs");
+// const fs = require("fs");
 
-fs.rm("Learn Node JS/342" ,{recursive: true}, function(err){
-    if(err) console.log(err);
-    else console.log("Folder deleted Sucessful")
-})
+// fs.rm("Learn Node JS/342" ,{recursive: true}, function(err){
+//     if(err) console.log(err);
+//     else console.log("Folder deleted Sucessful")
+// })
+
+// Using Syncrounous function (NOT Recommended)
+
+// const fs = require("fs");
+
+// fs.rmSync("Learn Node JS" , {recursive:true} )
+
+// console.log("removed Sucessful")
+
+
+
+
