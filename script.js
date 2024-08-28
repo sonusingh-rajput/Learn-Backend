@@ -1,6 +1,6 @@
 
 //+++++++++++++++++++++ Fie Systems on node JS++++++++++++++++
-// Write file, read file,update file,append file,delete file,forder creation, copy,rename,move
+// Write file, read file,update file,append file,delete file,folder creation, copy,rename,move
 
 // 1. Create a File 
 
@@ -32,9 +32,18 @@
 
 // 4. Rename the File
 
+// const fs = require("fs");
+
+// fs.rename("Node,.txt" , "Nodejs.txt" , function(err){
+//     if(err) console.log(err);
+//     else console.log("File Rename Sucessful")
+// })
+
+//5. Delete the File
+
 const fs = require("fs");
 
-fs.rename("Node,.txt" , "Nodejs.txt" , function(err){
+fs.unlink("script1.js" , function(err){
     if(err) console.log(err);
-    else console.log("File Rename Sucessful")
+    else console.log("File deleted Sucessful")
 })
