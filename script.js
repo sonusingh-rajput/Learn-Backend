@@ -23,9 +23,18 @@
 
 //3. Append a File (Add more file on data)
 
+// const fs = require("fs");
+
+// fs.appendFile("script1.js", "//console.log","utf8",function(err){
+// if(err) console.log(err);
+// else console.log("The Append file was successfully")
+// })
+
+// 4. Rename the File
+
 const fs = require("fs");
 
-fs.appendFile("script1.js", "//console.log","utf8",function(err){
-if(err) console.log(err);
-else console.log("The Append file was successfully")
+fs.rename("Node,.txt" , "Nodejs.txt" , function(err){
+    if(err) console.log(err);
+    else console.log("File Rename Sucessful")
 })
