@@ -21,3 +21,19 @@
 
 // ++++++++++++++++++ HTTP Routings +++++++++++++++++
 
+const http = require("node:http");
+
+const server = http.createServer(function(req,res){
+    if(req.url === "/") {
+        res.end("Hello, world!");
+
+    }else if(req.url === "/contact"){
+        res.end("Contact us at: 123-456-7890");
+    }
+    
+    else {
+        res.end("Page not found!");
+    }
+})
+
+server.listen(3000);
