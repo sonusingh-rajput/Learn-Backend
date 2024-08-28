@@ -59,9 +59,18 @@
 
 // 7. Read folder the File
 
+// const fs = require("fs");
+
+// fs.readdir("Learn Node JS", {withFileTypes:true}, function(err , files){
+//     if(err) console.log(err);
+//     else console.log(files)
+// })
+
+// 8. Delete folder
+
 const fs = require("fs");
 
-fs.readdir("Learn Node JS", {withFileTypes:true}, function(err , files){
+fs.rm("Learn Node JS/342" ,{recursive: true}, function(err){
     if(err) console.log(err);
-    else console.log(files)
+    else console.log("Folder deleted Sucessful")
 })
