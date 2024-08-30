@@ -39,5 +39,12 @@
     <li>404 - Not Found</li>
 </od>
 
+<h4>5XX Code</h4>
+<ol>
+    <li>500 - Internal Server Error </li>
+    <li>502 - Bad Gatway</li>
+    <li>503 - Service Unavaibale</li>
+</od>
+
 
 
