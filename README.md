@@ -31,5 +31,13 @@
     <li>308 - Permanently Move at another URI</li>
 </od>
 
+<h4>4XX Code</h4>
+<ol>
+    <li>400 - Bad Request</li>
+    <li>401 - Unothorized</li>
+    <li>402 - Forbidden</li>
+    <li>404 - Not Found</li>
+</od>
+
 
 
