@@ -8,7 +8,7 @@
     <li>Delete</li>
 </ol>
 
-# HTTP Status Code
+# HTTP Status Code - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 <h4>1XX Code</h4>
 <ol>
@@ -23,4 +23,13 @@
     <li>202 - Accept Request and Process for Work</li>
     <li>203 - Transfer Your Request for andother Server</li>
 </od>
+
+<h4>3XX Code</h4>
+<ol>
+    <li>301 - (Moved Data) - No Data Exist </li>
+    <li>307 - Temperory Moved Data  </li>
+    <li>308 - Permanently Move at another URI</li>
+</od>
+
+
 
