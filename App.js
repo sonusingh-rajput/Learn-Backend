@@ -29,6 +29,8 @@ const server = http.createServer(function(req,res){
 
     }else if(req.url === "/contact"){
         res.end("Contact us at: 123-456-7890");
+    }else if(req.url === "/about"){
+        res.end("Welcome to the Node server for About Page.")
     }
     
     else {
