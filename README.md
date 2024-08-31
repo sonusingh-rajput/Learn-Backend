@@ -51,6 +51,8 @@
 
 # Learn Express JS
 
-* MiddleWare - Aish koi bhi function(as a Parameter) jushma 3 (Requrst , Responce , Next) Cheez ka access mila 
+* MiddleWare - Aish koi bhi function(as a Parameter) jishma 3 (Request , Responce , Next) Cheez ka access mila 
 
 Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par jaati hai agar aap chaahte hai route  par jaane sa pahle wo request mein app kuch check karna chaahte hai ya fir kuch jodna chaahte hai , un saare case mein Middleware use hota hai
+
+* Express Session - Cookie hota hai browser mein data save karna ka leaya or Session hota hai server par data save karna ka leaya.
