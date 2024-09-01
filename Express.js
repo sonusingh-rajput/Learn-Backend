@@ -6,6 +6,9 @@ const expressSession = require('express-session')
 
 const cors = require('cors')
 
+const cookieParser = require('cookie-parser')
+
+
 /*
 
 Express session configuration
@@ -44,7 +47,16 @@ app.get("/shareddata" , cors() , function(req, res, next){
 // })
 
 
+// Cookie 
 
+app.use(cookieParser())
+app.get("/check" , function(req, res, next){
+    console.log(req.cookies.banned)
+})
+app.get("/banded" , function(req, res, next){
+    res.cookie("banned" , "true");
+    res.send("Banned!")
+})
 app.get("/" , function(req, res) {
     res.send("Welcome to Express Server")
 })
