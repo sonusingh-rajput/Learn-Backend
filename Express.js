@@ -8,10 +8,13 @@ const cors = require('cors')
 
 const cookieParser = require('cookie-parser')
 
+/*Morgan Middleware
+const morgan = require('morgan')
 
-/*
+app.use(morgan('combined'))
+*/
 
-Express session configuration
+/*Express session configuration
 
 app.use(expressSession({
     secret : "random stuff",
@@ -47,7 +50,7 @@ app.get("/shareddata" , cors() , function(req, res, next){
 // })
 
 
-// Cookie 
+/*Cookie 
 
 app.use(cookieParser())
 app.get("/check" , function(req, res, next){
@@ -57,6 +60,9 @@ app.get("/banded" , function(req, res, next){
     res.cookie("banned" , "true");
     res.send("Banned!")
 })
+*/
+
+
 app.get("/" , function(req, res) {
     res.send("Welcome to Express Server")
 })
