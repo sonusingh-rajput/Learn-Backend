@@ -56,3 +56,5 @@
 Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par jaati hai agar aap chaahte hai route  par jaane sa pahle wo request mein app kuch check karna chaahte hai ya fir kuch jodna chaahte hai , un saare case mein Middleware use hota hai
 
 * Express Session - Cookie hota hai browser mein data save karna ka leaya or Session hota hai server par data save karna ka leaya.
+
+* Cors (Cross Origin Resource Sharing) -   Browser mein ek sequrity feature hota hai , Jiske tahat aap kisi aur web domain ka data nahi manga sakte ya show nai kar skte hai and browser isse aapko rokta hai , ab agar aap chaahte hai ki browser allow kare data ko laane ke liya , to fir aapkko us website ke server ke through CORS enable karna padega.

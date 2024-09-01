@@ -4,6 +4,8 @@ const app = express()
 
 const expressSession = require('express-session')
 
+const cors = require('cors')
+
 /*
 
 Express session configuration
@@ -16,7 +18,7 @@ app.use(expressSession({
 
 app.get("/create" , function(req, res , next){
     req.session.polo = true;
-    res.sand("Done")
+    res.send("Done")
 })
 
 app.get("/checks" , function(req, res, next){
@@ -24,6 +26,15 @@ app.get("/checks" , function(req, res, next){
 })
 
 */
+
+/*CROS Enabled
+
+app.get("/shareddata" , cors() , function(req, res, next){
+    res.send("CROS Enabled")
+})
+
+*/
+
 
 // Use Middleware always use for app.use(middleware)
 
