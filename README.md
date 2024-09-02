@@ -81,16 +81,27 @@ Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par j
     <li>and use res.render in place of the res.send to render any page form views folder</li>
 </ol>
 
-* Form Handling - Using EJS
+<h3> Form Handling - Using EJS </h3>
 <ol>
     <li>Form jab bhi Submit karoge pahli cheek ya dekhiye ki saari fields ke pass name property hai ya nahi</li>
-    <li></li>Form ke pass action hai ya nahi
+    <li>Form ke pass action hai ya nahi</li>
     <li>Backend ke pass route hai ya nahi</li>
     <li>wo Route ka type sahi hai ya nahi</li>
     <li>Route ke andar aapko data unke type ke hisaab se milega</li>
-    <li>Form ka Bai Default type GET hota hai</li>
+    <li>Form ka By Default type GET hota hai</li>
     <ol>
         <li>GET - req.query</li>
         <li>POST - req.body</li>
     <ol>
 </ol>
+
+<h2>Postman</h2>
+
+<h4>HTTP Methods</h4>
+
+<ul>
+    <li>GET - Server se kuch laana</li>
+    <li>POST - Server par kuchh hoga , is aspect        main ki kuchh create hogo,ya fir establish hoga</li>
+    <li>PUT - Update karne ke liye , poora Replace karta hai</li>
+    <li> PATCH - Update karne ke liya , poora replace nahi karta hai , ye sirf wo change karta hai jo change hona ho</li>
+<ul>
