@@ -89,12 +89,23 @@ app.get('*' , function(req,res){
 // Server Side Randring Using EJS
 
 app.set('view engine' , 'ejs');
+app.use(express.json());
+app.use(express.urlencoded({extended:true}))
 app.get("/" , function(req, res) {
     res.render("index")
 })
 
 app.get("/profile" , function(req, res) {
     res.render("profile")
+})
+
+app.get("/check" , function(req, res) {
+    res.send('Working')
+    console.log(req.query)
+})
+app.post("/checking" , function(req, res) {
+    res.send('Thanks for Submiting . We Will Connect Soon...')
+    console.log(req.body)
 })
 
 app.listen(3000);
