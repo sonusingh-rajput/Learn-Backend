@@ -62,7 +62,21 @@ app.get("/banded" , function(req, res, next){
 })
 */
 
+/* Dynamic Routings
+app.get("/profile/:name" , function(req,res,next){
+    res.send(`${(req.params.name).toLocaleUpperCase()} Profile`)
+})
 
+app.get("/profile/:name/:age" , function(req,res,next){
+    res.send(` My Name is ${req.params.name} my age is ${req.params.age}.`)
+})
+
+//Static Routings
+app.get("/profile/ram" , function(req,res, next){
+    res.send("Ram Profile")
+})
+
+*/
 app.get("/" , function(req, res) {
     res.send("Welcome to Express Server")
 })

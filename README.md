@@ -62,3 +62,10 @@ Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par j
 * Cookie Parser - 
 
 * Morgan - 
+
+* Rquest & Response - 
+
+<ol>
+    <li>Req - Browser ka kuch jaata hai Server Par </li>
+    <li>Res - Server sa kuch jaata hai Browser par</li>
+</ol>
