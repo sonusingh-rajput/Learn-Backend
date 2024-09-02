@@ -69,3 +69,14 @@ Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par j
     <li>Req - Browser ka kuch jaata hai Server Par </li>
     <li>Res - Server sa kuch jaata hai Browser par</li>
 </ol>
+
+* Server Side Rendering - Using EJS 
+<ol>
+    <h4>Steps</h4>
+    <li>Install ejs form npm (npm i ejs)</li>
+    <li>app.set('view engine' , 'ejs')</li>
+    <li>Create a views Folder</li>
+    <li>Creae view index.ejs</li>
+    <li>load the hatml in ejs page</li>
+    <li>and use res.render in place of the res.send to render any page form views folder</li>
+</ol>

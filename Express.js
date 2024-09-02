@@ -76,12 +76,6 @@ app.get("/profile/ram" , function(req,res, next){
     res.send("Ram Profile")
 })
 
-*/
-app.get("/" , function(req, res) {
-    res.send("Welcome to Express Server")
-})
-
-
 app.get("/about" , function(req, res) {
     res.send("About For Express Server")
 })
@@ -89,4 +83,18 @@ app.get("/about" , function(req, res) {
 app.get('*' , function(req,res){
     res.send('Page Not Found')
 })
+
+*/
+
+// Server Side Randring Using EJS
+
+app.set('view engine' , 'ejs');
+app.get("/" , function(req, res) {
+    res.render("index")
+})
+
+app.get("/profile" , function(req, res) {
+    res.render("profile")
+})
+
 app.listen(3000);
