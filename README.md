@@ -101,7 +101,7 @@ Or Jab bhi app browser sa koi request backend par bhejte hai , to wo route par j
 
 <ul>
     <li>GET - Server se kuch laana</li>
-    <li>POST - Server par kuchh hoga , is aspect        main ki kuchh create hogo,ya fir establish hoga</li>
+    <li>POST - Server par kuchh hoga , is aspect main ki kuchh create hogo,ya fir establish hoga</li>
     <li>PUT - Update karne ke liye , poora Replace karta hai</li>
     <li> PATCH - Update karne ke liya , poora replace nahi karta hai , ye sirf wo change karta hai jo change hona ho</li>
 <ul>
